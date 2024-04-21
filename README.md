@@ -14,7 +14,7 @@ There are potentially two scenarios in which ProxyBlocker can be useful
 2. **If you want to focus on something and limit yourself from the temptation to be distracted by social networks, streaming platforms, etc**
 
 ## Getting started
-To launch the **Adventurer** download the repository folder and run following on your **Linux** PC
+To launch the **ProxyBlocker** download the repository folder and run following on your **Linux** PC
 
 Download the Virtual Enviroment
 ```shell
@@ -74,10 +74,26 @@ For example you want to block `tiktok.com`. Submit:
 <p align="left">
       <img src="https://i.ibb.co/MpXkxJ2/image.png" width="700">
 </p>
-
+The domain name has been added to the blocked list
 <p align="left">
       <img src="https://i.ibb.co/YhjBmtc/image.png" width="700">
 </p>
 
+And now instead of this
+<p align="left">
+      <img src="https://i.ibb.co/rZ3H7vr/image.png" width="1200">
+</p>
 
+**You get this and a bunch of motivation to get better and develop not waste your time**
+
+<p align="left">
+      <img src="https://i.ibb.co/ZNSLKMZ/image.png" width="1200">
+</p>
+<br>
+<br>
+
+### Important remark
+
+**Some browsers put blocked sites in the cache and it needs to be cleaned manually if you want to revive some site.**<br>
+[Read more](https://its.uiowa.edu/support/article/719)
 

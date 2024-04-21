@@ -31,7 +31,7 @@ Install and configure .env
 ```shell
 touch .env
 ```
-Сome up with and fill in the username and password under which you will enter the admin panel in .env
+In '.env' fill in the username and password under which you will enter the admin panel
 ```.env
 ADMIN_LOGIN=
 PASSWORD_LOGING=
@@ -60,7 +60,7 @@ make run_flask
 ```
 To block / unblock sites go to `localhost:8000/admin`<br>
 Add login information as `password=`, `login=`<br>
-The overall url is
+The final url is
 ```url
 https://localhost:8000/admin?login=<your_login>&password=<your_password>
 ```
@@ -68,7 +68,7 @@ And you will see the admin panel
 <p align="center">
       <img src="https://i.ibb.co/J36p666/image.png" width="1200">
 </p>
-To add or delete new site (sites) fill the form with it's domain name and method (add or delete)<br>
+To add or delete new site (sites) fill the form with it's domain name and method (*add* or *delete*)<br>
 
 For example you want to block `tiktok.com`. Submit:
 <p align="left">
@@ -84,7 +84,7 @@ And now instead of this
       <img src="https://i.ibb.co/rZ3H7vr/image.png" width="1200">
 </p>
 
-**You get this and a bunch of motivation to get better and develop not waste your time**
+**You get this and a bunch of motivation to get better and develop, not waste your time**
 
 <p align="left">
       <img src="https://i.ibb.co/ZNSLKMZ/image.png" width="1200">

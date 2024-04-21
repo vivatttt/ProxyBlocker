@@ -90,7 +90,6 @@ And now instead of this
       <img src="https://i.ibb.co/ZNSLKMZ/image.png" width="1200">
 </p>
 <br>
-<br>
 
 ### Important remark
 

@@ -38,9 +38,9 @@ def block():
 
     print(response.status_code)
     if response.status_code == 200 or response.status_code == 502:
-        return 'POST запрос успешно отправлен на прокси сервер.'
+        return 'The POST request was successfully sent to the proxy server.'
     else:
-        return 'Ошибка при отправке POST запроса на прокси сервер.'
+        return 'The error occured during sending request to the proxy server.'
 
 @app.route('/')
 def default():

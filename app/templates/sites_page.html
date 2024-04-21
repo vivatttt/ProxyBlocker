@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blocked sites</title>
+
+    <link rel="stylesheet" href="/static/styles/blocked.css">
+
+</head>
+<body>
+    <div>
+        <p class="heading">Block / recover resource </p>
+    </div>
+    
+    <div class="d2">
+        <form action="/change" method="POST">
+            <input type="text" class="d2" id="text" name="text">
+            <button type="submit">✔</button>
+        </form>
+    </div>
+    <br>
+
+    <span class="hint"> Enter site names separated by commas and method (add or delete) </span>
+
+    <p class="heading">Currently blocked Sites</p>
+
+
+    <ul>
+        {% for site in sites %}
+        
+        <li>
+            {{ site|safe }}
+        </li>
+
+        {% endfor %}
+    </ul>
+    
+
+</body>
+</html>

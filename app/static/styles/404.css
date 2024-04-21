@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(31, 31, 44);
+    font-family: monospace;
+    color: white;
+}
+
+.container{
+    margin-top: 20%;
+    font-size: 24px;
+}

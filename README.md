@@ -42,8 +42,13 @@ Run following to generate the certificate
 mitmproxy
 ```
 And go to `~/.mitmproxy/`. Find `mitmproxy-ca-cert.pem` and add it to your browser proxy-certificates.<br>
-[Read more](https://docs.mitmproxy.org/stable/concepts-certificates/)
-
+[Read more](https://docs.mitmproxy.org/stable/concepts-certificates/)<br>
+Then go to your browser settings and find *proxy configuration*<br>
+Choose manual proxy configuration and fill:
+```
+host : localhost
+PORT : 8080
+```
 <br>
 And we're done with configuration
 
@@ -58,8 +63,7 @@ Go to main directory in second terminal and run
 ```shell
 make run_flask
 ```
-To block / unblock sites go to `localhost:8000/admin`<br>
-Add login information as `password=`, `login=`<br>
+To block / unblock sites go to `localhost:8000/admin` with loign information as `password=`, `login=`<br>
 The final url is
 ```url
 https://localhost:8000/admin?login=<your_login>&password=<your_password>
@@ -68,6 +72,7 @@ And you will see the admin panel
 <p align="center">
       <img src="https://i.ibb.co/J36p666/image.png" width="1200">
 </p>
+
 To add or delete new site (sites) fill the form with it's domain name and method (*add* or *delete*)<br>
 
 For example you want to block `tiktok.com`. Submit:

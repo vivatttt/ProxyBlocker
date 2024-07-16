@@ -34,7 +34,7 @@ touch .env
 In '.env' fill in the username and password under which you will enter the admin panel
 ```.env
 ADMIN_LOGIN=
-PASSWORD_LOGING=
+ADMIN_PASSWORD=
 ```
 Then you need to configure PROXY in your prowser<br>
 Run following to generate the certificate

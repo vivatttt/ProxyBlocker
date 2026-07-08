@@ -1,4 +1,7 @@
-__pycache__
-env
+__pycache__/
+*.py[cod]
 .env
-mitmproxy-ca-cert.pem
+env/
+.venv/
+node_modules/
+.DS_Store
